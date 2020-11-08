@@ -1,0 +1,28 @@
+{
+	"components": {
+		"x-550722-hello-world": {
+			"innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": [
+					"global.core",
+					"global.landing-page"
+				],
+				"label": "Hello World",
+				"icon": "clipboard-outline",
+				"description": "Simple first component.",
+				"category": "primitives"
+			},
+			"properties": [
+				{
+					"name": "backgroundColor",
+					"label": "Background Color",
+					"description": "Background Color",
+					"readOnly": false,
+					"required": false,
+					"defaultValue": "Blue"
+				}
+			]
+		}
+	},
+	"scopeName": "x_550722_test_he_2"
+}

@@ -1,0 +1,27 @@
+{
+	"components": {
+	    "x-550722-card-list": {
+			"innerComponents": [
+				"now-template-card-assist"
+			],
+			"actions": [
+				{ 
+					"name": "Copy URL",
+					"description": "Will copy the URL of the card"
+				},
+				{ 
+					"name": "Mark Complete",
+					"description": "Will make card completed and closed"
+				}
+			],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Card List",
+				"icon": "address-card-fill",
+				"description": "List of cards with mock data.",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_550722_test_ca_0"
+}

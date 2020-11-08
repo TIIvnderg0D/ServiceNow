@@ -1,0 +1,10 @@
+@import '@servicenow/sass-kit/host';
+
+div {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+
+    & > * {
+        margin: 10px;
+    }
+}
